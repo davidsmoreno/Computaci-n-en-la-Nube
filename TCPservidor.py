@@ -47,7 +47,7 @@ def acreditar(y):
 
 from socket import *
 
-servidorPuerto = 1000
+servidorPuerto = 12500
 servidorSocket = socket(AF_INET,SOCK_STREAM)
 servidorSocket.bind(('',servidorPuerto))
 servidorSocket.listen(1)
